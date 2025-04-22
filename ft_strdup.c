@@ -6,7 +6,7 @@
 /*   By: adpinhei <adpinhei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 21:02:26 by adpinhei          #+#    #+#             */
-/*   Updated: 2025/04/15 18:16:26 by adpinhei         ###   ########.fr       */
+/*   Updated: 2025/04/22 16:01:20 by adpinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,7 @@ char	*ft_strdup(const char *s)
 {
 	char	*dest;
 	size_t	length;
-	int		i;
 
-	i = 0;
 	length = ft_strlen(s);
 	dest = (char *)malloc(length * sizeof(char) + 1);
 	if (!dest)
