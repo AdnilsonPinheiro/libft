@@ -28,11 +28,11 @@ programming by learning what some of the most used functions in C are and how ex
 No shortcuts, no memory leaks — just clean, production–ready code.
 
 If you check the libft.h header you'll see I've divided my functions in five categories:
-    - Memory functions;
-    - String functions;
-    - Checker functions;
-    - Miscellaneous functions; and
-    - List functions.
+  - Memory functions;
+  - String functions;
+  - Checker functions;
+  - Miscellaneous functions; and
+  - List functions.
 
 This division, although not applied to the Makefile or the project structure (we'll get to that in a moment), helps 
 the user understand what to expect from each function, specially when using libft in future endeavours.
