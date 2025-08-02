@@ -77,12 +77,13 @@ to the concept of nodes and linked lists, more than to actually provide us with 
 project and each approach will need its own, personalized struct.
 
 ## Project structure
-
+```plaintext
 libft/
 ├── ft_*.c             # Source files for all functions
 ├── libft.h            # Header file with function prototypes
 ├── Makefile           # Compiles the library
 └── README.md          # Project documentation (this file)
+```
 
 ## License
 
