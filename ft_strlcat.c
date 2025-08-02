@@ -6,7 +6,7 @@
 /*   By: adpinhei <adpinhei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 21:01:42 by adpinhei          #+#    #+#             */
-/*   Updated: 2025/04/15 20:00:58 by adpinhei         ###   ########.fr       */
+/*   Updated: 2025/08/02 20:14:19 by adpinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,19 +33,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[j] = '\0';
 	return (s_dest + s_src);
 }
-
-/*#include <stdio.h>
-#include <bsd/string.h>
-
-int     main(void)
-{
-	size_t  size = 15;
-	char    dest[11] = "a";
-	const char  *src = "lorem";
-	printf("%s\n", dest);
-	printf("%zu\n",strlcat (dest, src, size));
-	printf("%s\n", dest);
-	printf("%zu\n", ft_strlcat (dest, src, size));
-	printf("%s\n", dest);
-}
-*/

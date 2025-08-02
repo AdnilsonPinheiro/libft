@@ -6,7 +6,7 @@
 /*   By: adpinhei <adpinhei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 22:30:11 by adpinhei          #+#    #+#             */
-/*   Updated: 2025/04/16 18:48:42 by adpinhei         ###   ########.fr       */
+/*   Updated: 2025/08/02 20:13:58 by adpinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,15 +27,3 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-/*
-#include <string.h>
-#include <stdio.h>
-
-int     main(void)
-{
-	const char  *s = "Testing strchr";
-	char    c = '\0';
-	printf("%p\n", strchr (s, c));
-	printf("%p\n", ft_strchr (s, c));    
-}*/

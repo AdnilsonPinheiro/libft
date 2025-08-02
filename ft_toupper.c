@@ -6,7 +6,7 @@
 /*   By: adpinhei <adpinhei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 21:45:11 by adpinhei          #+#    #+#             */
-/*   Updated: 2025/04/14 16:29:21 by adpinhei         ###   ########.fr       */
+/*   Updated: 2025/08/02 20:15:01 by adpinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-/*
-#include <stdio.h>
-#include <ctype.h>
-int     main(void)
-{
-	char    c = 'j';
-	printf("%i\n",toupper(c));
-	printf("%i\n", ft_toupper(c));    
-}*/

@@ -6,7 +6,7 @@
 /*   By: adpinhei <adpinhei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 14:59:34 by adpinhei          #+#    #+#             */
-/*   Updated: 2025/04/16 18:42:08 by adpinhei         ###   ########.fr       */
+/*   Updated: 2025/08/02 20:14:51 by adpinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	dest[i] = '\0';
 	return (dest);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	char const	s[] = "Testing ft_substr 12345";
-	printf("%s\n", s);
-	printf("%s\n", ft_substr(s, 0, 0));
-	free(ft_substr);
-	printf("%p\n", ft_substr(s, 0, 0));
-}*/

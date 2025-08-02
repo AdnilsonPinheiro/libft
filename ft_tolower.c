@@ -6,7 +6,7 @@
 /*   By: adpinhei <adpinhei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 22:27:34 by adpinhei          #+#    #+#             */
-/*   Updated: 2025/04/14 16:28:33 by adpinhei         ###   ########.fr       */
+/*   Updated: 2025/08/02 20:14:56 by adpinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ int	ft_tolower(int c)
 	}
 	return (c);
 }
-/*
-#include <stdio.h>
-#include <ctype.h>
-int     main(void)
-{
-	char    c = '5';
-	printf("%i\n",tolower(c));
-	printf("%i\n", ft_tolower(c));    
-}*/

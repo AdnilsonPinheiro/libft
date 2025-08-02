@@ -6,31 +6,13 @@
 /*   By: adpinhei <adpinhei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 21:47:23 by adpinhei          #+#    #+#             */
-/*   Updated: 2025/04/16 19:14:10 by adpinhei         ###   ########.fr       */
+/*   Updated: 2025/08/02 20:12:18 by adpinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_count_digits(int n)
-{
-	int	count;
-
-	count = 0;
-	if (n == INT_MIN)
-		return (11);
-	if (n < 0)
-	{
-		count++;
-		n *= -1;
-	}
-	while (n >= 10)
-	{
-		n /= 10;
-		count++;
-	}
-	return (++count);
-}
+static int	ft_count_digits(int n);
 
 char	*ft_itoa(int n)
 {
@@ -56,11 +38,23 @@ char	*ft_itoa(int n)
 	}
 	return (res);
 }
-/*
-#include <stdio.h>
-#include <limits.h>
-int	main(void)
+
+static int	ft_count_digits(int n)
 {
-	int	n = -2147483648;
-	printf("%s\n", ft_itoa(n));
-}*/
+	int	count;
+
+	count = 0;
+	if (n == INT_MIN)
+		return (11);
+	if (n < 0)
+	{
+		count++;
+		n *= -1;
+	}
+	while (n >= 10)
+	{
+		n /= 10;
+		count++;
+	}
+	return (++count);
+}

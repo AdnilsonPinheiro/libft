@@ -6,7 +6,7 @@
 /*   By: adpinhei <adpinhei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 19:59:11 by adpinhei          #+#    #+#             */
-/*   Updated: 2025/04/17 15:16:18 by adpinhei         ###   ########.fr       */
+/*   Updated: 2025/08/02 20:10:26 by adpinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,20 +29,3 @@ void	*ft_calloc(size_t num, size_t size)
 	ft_bzero(ptr, (num * size));
 	return ((void *)ptr);
 }
-/*
-#include <stdio.h>
-int     main(void)
-{
-	size_t  num;
-	size_t  size;
-	char    *test;
-
-	num = 8;
-	size = sizeof(char);
-	printf("%p\n", test = calloc(num, size));
-	test = "teste OG";
-	printf("%s\n", test);
-	printf("%p\n", test = ft_calloc(num, size));
-	test = "teste FT";
-	printf("%s\n", test);
-}*/
